@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ABES College Admission 2026</title>
+</head>
+<body>
+
+    <header>
+        <h1 align="center">ABES College Admission 2026</h1>
+    </header>
+
+    <main>
+        <h2>Courses and Fees</h2>
+
+        <table border="1" cellspacing="0" cellpadding="6" width="100%">
+            <caption>Available Courses</caption>
+            <tr>
+                <th>Course</th>
+                <th>Seats</th>
+                <th>Fees</th>
+            </tr>
+            <tr>
+                <td>B.Tech CSE</td>
+                <td>120</td>
+                <td>&#8377;90,000</td>
+            </tr>
+            <tr>
+                <td>BCA</td>
+                <td>60</td>
+                <td>&#8377;45,000</td>
+            </tr>
+        </table>
+        <br>
+
+        <form action="submit.php" method="POST">
+            <fieldset>
+                <legend>Application Form</legend>
+
+                Name:<br>
+                <input type="text" required><br><br>
+
+                Email:<br>
+                <input type="email" required><br><br>
+
+                Course:<br>
+                <select>
+                    <option>B.Tech CSE</option>
+                    <option>BCA</option>
+                </select><br><br>
+
+                Statement:<br>
+                <textarea rows="4" cols="50" required></textarea><br><br>
+
+                <input type="submit" value="Apply">
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p align="center">&copy; 2026 ABES College</p>
+    </footer>
+
+</body>
+</html>
